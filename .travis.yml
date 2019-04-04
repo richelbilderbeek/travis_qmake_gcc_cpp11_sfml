@@ -9,6 +9,8 @@ dist: xenial
 #  - sudo apt-get update -qq
 
 install: 
+ - apt search libsfml
+ - apt search libsfml-dev
  - sudo apt install libsfml-dev
  # - sudo apt-get install -qq g++-5  
  # - sudo apt-get install libsfml-dev
